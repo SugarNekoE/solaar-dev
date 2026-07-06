@@ -3,13 +3,6 @@
 {
   packages = with pkgs; [
     flatpak
-    meson
-    ninja
-    pkg-config
-    dbus
-    dbus.dev
-    glib
-    glib.dev
   ];
   languages = {
     javascript = {
