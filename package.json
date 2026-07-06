@@ -6,6 +6,7 @@
     "husky": "^9.1.7"
   },
   "scripts": {
-    "prepare": "husky"
+    "prepare": "husky",
+    "setup-gnome-sdk": "flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo && flatpak install --user -y flathub org.gnome.Sdk//49 org.gnome.Platform//49"
   }
 }
