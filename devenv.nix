@@ -9,5 +9,12 @@
         enable = true;
       };
     };
+    python = {
+      enable = true;
+      package = pkgs.python311;
+      venv = {
+        enable = true;
+      };
+    };
   };
 }
