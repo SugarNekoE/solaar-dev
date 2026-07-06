@@ -1,0 +1,6 @@
+[submodule "Solaar"]
+	path = Solaar
+	url = git@github.com:pwr-Solaar/Solaar.git
+[submodule "io.github.pwr_solaar.solaar"]
+	path = io.github.pwr_solaar.solaar
+	url = git@github.com:SugarNekoE/io.github.pwr_solaar.solaar.git

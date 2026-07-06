@@ -1,6 +1,10 @@
 { pkgs, ... }:
 
 {
+  packages = with pkgs; [
+    flatpak
+    flatpak-builder
+  ];
   languages = {
     javascript = {
       enable = true;
